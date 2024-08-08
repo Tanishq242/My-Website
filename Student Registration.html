@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+  </head>
+  <body bgcolor="#B1F0DA">
+    <p style="margin-left: 20px;"><a href="/homepage.html">Home Page</a></p>
+    <h1 align="center"><ins>Student Registration Form</ins></h1>
+    <form action="post">
+      <label for="name" style="margin-left: 600px;">Name :-</label>
+      <input type="text" placeholder="Enter your First Name" required />
+      <input type="text" placeholder="Enter your Middle Name" />
+      <input type="text" placeholder="Enter your Last Name" />
+      <br /><br />
+      <label for="father name" style="margin-left: 600px;">Father's Name :-</label>
+      <input type="text" placeholder="Father's First Name" required />
+      <input type="text" placeholder="Father's Middle Name" />
+      <input type="text" placeholder="Father's Last Name" />
+      <br /><br />
+      <label for="gender" style="margin-left: 600px;">Select your Gender :-</label>
+      <input type="radio" name="gender" required />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" required />
+      <label for="female">Female</label>
+      <br /><br />
+      <label for="dob" style="margin-left: 600px;">Date of Birth :-</label>
+      <input type="date" required />
+      <br /><br />
+      <label for="mobile" style="margin-left: 600px;">Mobile Number :-</label>
+      <input
+        type="text"
+        placeholder="Enter your 10-digit number"
+        maxlength="10"
+        required
+      />
+      <br /><br />
+      <label for="email" style="margin-left: 600px;">Email Address :-</label>
+      <input type="email" placeholder="xyz@gmail.com" required />
+      <br /><br />
+      <label for="address" style="margin-left: 600px;">Current Address :-</label>
+      <textarea name="" id=""></textarea>
+      <br /><br />
+      <label for="aadhar" style="margin-left: 600px;">Aadhar Number :-</label>
+      <input
+        type="text"
+        placeholder="Enter your 12-digit number "
+        maxlength="12"
+        required
+      />
+      <br /><br />
+      <label for="pass" style="margin-left: 600px;">Create your Password :-</label>
+      <input type="password" placeholder="min. 8 character" min="8" required />
+      <label for="pass">Re-Type your Password :-</label>
+      <input type="password" placeholder="same as before" min="8" required />
+      <br /><br />
+      <input type="submit" value="Submit" style="margin-left: 900px;" />
+    </form>
+  </body>
+</html>

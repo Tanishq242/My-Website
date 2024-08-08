@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <p style="margin-left: 20px;"><a href="/homepage.html">Home Page</a></p>
+    <h1 align="center"><ins>List with Nested Tag</ins></h1>
+    <table border="3" align="center" style=" font-size: 110%; height: 500px; width:900px">
+        <tr bgcolor="#5AF8B4">
+            <th style="width: 80px;">Tag</th>
+            <th>Description</th>
+            <th>Bullets</th>
+            <th>Nested List Tag</th>
+            <th>Example</th>
+        </tr>
+
+        <tr bgcolor="b0e0e6">
+            <td align="center"><b>&lt;ul&gt;</b></td>
+            <td align="center">Defines an unordered list</td>
+            <td>
+                <ul> <b>Disc Bullets</b> 
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ul>
+                <ul type="square"> <b>Square Bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ul>
+
+                <ul type="circle"> <b>Circle bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ul>
+            </td>
+            <td align="center">
+                &lt;ul&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &lt;li&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ul&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt; &lt;/li&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &lt;/li&gt;
+                <br>
+                &lt;/ul&gt;
+            </td>
+            <td>
+                <ul>
+                    <li>Mohan
+                        <ul>
+                            <li>Age - 20</li>
+                            <li>ID - 47329</li>
+                        </ul>
+                    </li>
+                    <li>Ramesh
+                        <ul>
+                            <li>Age - 21</li>
+                            <li>ID - 48329</li>
+                        </ul>
+                    </li>
+                    <li>Suresh
+                        <ul>
+                            <li>Age - 19</li>
+                            <li>ID - 44329</li>
+                        </ul>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr bgcolor="b0e0e6">
+            <td align="center"><b>&lt;ol&gt;</b></td>
+            <td align="center">Defines an ordered list</td>
+            <td>
+                <ol> <b>Numbered Bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ol>
+                <ol type="A"> <b>A-Bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ol>
+                <ol type="a"> <b>a-Bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ol>
+                <ol type="I"> <b>Roman Bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li>
+                </ol>
+                <ol type="i"> <b>Roman Bullets</b>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Mango</li
+                </ol>
+            </td>
+            <td align="center">
+                &lt;ol&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &lt;li&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ol&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;li&gt; &lt;/li&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ol&gt;
+                <br>
+                &nbsp; &nbsp; &nbsp; &lt;/li&gt;
+                <br>
+                &lt;/ol&gt;
+            </td>
+            <td>
+                <ol>
+                    <li>Mohan
+                        <ul type="square">
+                            <li>Age - 20</li>
+                            <li>ID - 47329</li>
+                        </ul>
+                    </li>
+                    <li>Ramesh
+                        <ul type="square">
+                            <li>Age - 21</li>
+                            <li>ID - 48329</li>
+                        </ul>
+                    </li>
+                    <li>Suresh
+                        <ul type="square">
+                            <li>Age - 19</li>
+                            <li>ID - 44329</li>
+                        </ul>
+                    </li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
